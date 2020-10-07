@@ -1,2 +1,2 @@
 # My Website
-Personal webpage portfolio
+Personal webpage portfolio for Ben Raynor.
