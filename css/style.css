@@ -1,0 +1,29 @@
+
+.container {
+	min-height: 90vh;
+	background-color: rgb(36, 41, 46);
+	max-width: 100% !important;
+}
+.container:after {
+	content: "";
+	display: block;
+}
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+#smbar {
+	padding: 1% !important;
+	line-height: 20%;
+}
+#smbar ul {
+	margin-left: 90%;
+}
+.copyright {
+	text-transform: none;
+	float:left;
+	position: fixed;
+	color: rgb(157, 165, 180);
+}
