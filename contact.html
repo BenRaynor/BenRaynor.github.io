@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ben Raynor | CONTACT</title>
 <!-- CSS only -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -16,14 +17,15 @@
 	<!-- TOPNAV -->
 <HEADER>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Ben Raynor</a>
+  <div class="title-box">Ben Raynor</div>
+  <div class="title-box">Product Manager</div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
@@ -32,7 +34,7 @@
       <li class="nav-item">
         <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
       </li>
     </ul>
@@ -41,8 +43,20 @@
 </HEADER>
 	<!-- Main Content -->
 <div class="container">
-	
-
+<form>
+  <h1>Contact Me</h1>
+  <fieldset>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Name">
+      <label for="exampleInputPassword1">Email Address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <label for="exampleTextarea">Message</label>
+      <textarea class="form-control" id="exampleTextarea" rows="5"></textarea>
+    </div>
+       <button type="submit" class="btn btn-primary">Submit</button>
+  </fieldset>
+</form>
 </div>
 
 	<!-- BottomNav -->
