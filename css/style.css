@@ -1,4 +1,11 @@
 
+.navbar-collapse {
+	flex-grow: 0.9;
+}
+#fullname {
+	all: none;
+	text-shadow: white;
+}
 .landing-page {
 	background-image: url("../img/tor1.jpg");
 	min-height: 90vh;
@@ -23,27 +30,34 @@
 	max-width: 100% !important;
 	color: rgb(157, 165, 180);
 	text-align: center !important;
+	padding-top: 5%;
 }
-.container h1 {
-	padding-top: 10%;
+.container h5 {
+	text-decoration: underline !important;
 }
 .container:after {
 	content: "";
 	display: block;
 }
 .title-box {
-	border-top: 2px double rgb(36, 41, 46);
-	border-radius: 40px 40px 80px 80px;
-	padding: 1% 3%;
-	width: max-content;
-	position: relative;
+	border-top: 2px double rgb(157, 165, 180);
+	border-bottom: 2px double rgb(157, 165, 180);
+	border-radius: 20px 20px 20px 20px;
+	text-align: center;
+	padding-top: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: -1%
+	line-height: 3;
+	color: rgb(157, 165, 180);
 }
 body, p, {
 	color: rgb(157, 165, 180);
 	text-transform: uppercase;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	color: rgb(157, 165, 180) !important;
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, a {
+	color: #fff;
+	padding-top: 1%;
 }
 #smbar {
 	padding: 1% !important;
@@ -72,4 +86,7 @@ fieldset {
 	margin: 0 auto !important;
 	padding-top: 3% !important;
 }
-
+article {
+	max-width: 800px;
+	margin: auto;
+}
