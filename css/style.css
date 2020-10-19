@@ -3,6 +3,7 @@
 	flex-direction: row;
 	padding-left: 30%;
 	margin-bottom: -5%;
+	width: 100%;
 }
 .landing-page {
 	background-image: url("../img/tor1.jpg");
@@ -49,9 +50,12 @@
 	padding-top: 1%;
 	padding-left: 2%;
 	padding-right: 2%;
-	padding-bottom: -1%
-	line-height: 3;
+	line-height: 1;
 	color: rgb(157, 165, 180);
+}
+hr {
+	padding-bottom: 10%;
+	margin: 1%;
 }
 body, p, {
 	color: rgb(157, 165, 180);
@@ -78,7 +82,7 @@ footer {
 	text-align: center;
 	position: fixed;
 	bottom: 0;
-	min-width: 100%;
+	width: 100%;
 }
 input, textarea {
 	margin: 2% !important;
