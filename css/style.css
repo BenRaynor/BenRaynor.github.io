@@ -1,10 +1,8 @@
 
-.navbar-collapse {
-	flex-grow: 0.9;
-}
-#fullname {
-	all: none;
-	text-shadow: white;
+#topnav {
+	flex-direction: row;
+	padding-left: 30%;
+	margin-bottom: -5%;
 }
 .landing-page {
 	background-image: url("../img/tor1.jpg");
@@ -21,8 +19,11 @@
 	content: "";
 	display: block;
 }
-.mr-auto, .mx-auto {
-	margin-left: auto;
+.row {
+  width: 100%;
+  margin: auto;
+  padding-top: 2%;
+  border-bottom: double 1px;
 }
 .container {
 	min-height: 100vh;
@@ -30,7 +31,8 @@
 	max-width: 100% !important;
 	color: rgb(157, 165, 180);
 	text-align: center !important;
-	padding-top: 5%;
+	padding-top: 2%;
+	align-content: center;
 }
 .container h5 {
 	text-decoration: underline !important;
